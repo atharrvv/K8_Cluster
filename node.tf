@@ -28,8 +28,8 @@ resource "aws_instance" "kubectl-server" {
     sudo ./aws/install
 
     # Configure AWS CLI
-    aws configure set aws_access_key_id AKIA2UC3FJGRFK2EMUXHA
-    aws configure set aws_secret_access_key 59SuezwF5G7hYRfU8EQML51M/Z4A10PD/H+k/6wjA
+    aws configure set aws_access_key_id AKIA2UC3FJGRFK2EMUXH
+    aws configure set aws_secret_access_key 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
     aws configure set region us-east-1
 
     # Update kubeconfig for EKS
